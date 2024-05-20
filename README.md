@@ -1,4 +1,4 @@
-<h1 style="font-size=30px">ANT - TEACHNOLOGY TRAINING CENTER</h1>
+<h1 style="font-size=30px">ANT - TECHNOLOGY TRAINING CENTER</h1>
 
 <img src="https://github.com/YannVanneth/Library_Management_System-/blob/d96f673b01e527d26a0bda607cd79779d548818c/ANT_Library_Logo.jpg?raw=true" width="128"/>
 
