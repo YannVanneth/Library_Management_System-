@@ -1,6 +1,6 @@
-# Library Management System
+<h1 style="font-size=30px">ANT - TEACHNOLOGY TRAINING CENTER</h1>
 
-## Description
+<img src="https://github.com/YannVanneth/Library_Management_System-/blob/d96f673b01e527d26a0bda607cd79779d548818c/ANT_Library_Logo.jpg?raw=true" width="128"/>
 
 The Library Management System Program is a project developed on 22 March 2024 by the Mobile App Morning Scholarship Student team. It offers functionality for managing library resources efficiently.
 
