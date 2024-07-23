@@ -57,7 +57,7 @@ int totalMember = 1, int memberId = 0,
 	
 	//text detail about graph
 	foreColor(7);
-	gotoxy(46, 37); cout<<"THE GRAPH DISPLAYS THE MOST READ MEMBER IN THE LIBRARY";
+	gotoxy(46, 37); cout<<"THE GRAPH DISPLAYS THE MOST BORROW MEMBER IN THE LIBRARY";
 	gotoxy(61, 38); cout<<"PRESS [ESC] TO EXIT GRAPH";
 	
 	

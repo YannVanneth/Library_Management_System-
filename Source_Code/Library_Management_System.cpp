@@ -24,6 +24,7 @@ int main(){
 	Hinsy::setFont(16,700,L"Consolas",true);
 	
 	///////////////////// PREPARE PROJECT //////////////////////////
+
 	showanimetion();
 	Main_Interface_Menu();
 

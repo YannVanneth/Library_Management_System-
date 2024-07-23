@@ -1772,7 +1772,7 @@ gotoxy(a,b+16); cout<<R"(                             |       |                 
 gotoxy(a,b+17); cout<<R"(                             '-.._..-'   .---------------------------------------.  )";
 gotoxy(a,b+18); cout<<R"(                               | |  )   (  PRESS [ESC] BACK | [ENTER] TO DO MORE. ) )";
 gotoxy(a,b+19); cout<<R"(                              _| | /     '---------------------------------------'  )";
-gotoxy(a,b+20); cout<<R"(                            .'_.Ã_/7                                                )";
+gotoxy(a,b+20); cout<<R"(                            .'_.Ãƒ_/7                                                )";
 }
 
 void Image_IsertBook(int a,int b){

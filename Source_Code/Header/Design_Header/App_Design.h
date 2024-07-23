@@ -8,6 +8,7 @@
 using namespace HinsyOOP;
 
 void BoookAndMemerOption();
+void first_about_us();
 
 void NoConsole_Resize(){
 	
@@ -141,6 +142,8 @@ void About_Us_Design(int a,int b){
 void About_Us(){
 	char press; int x = 1, y = 1; 
 	int a = 40, b = 5;
+	
+	first_about_us();
 	Hinsy::clearBox(0,0,150,40,7);
 	About_Us_Design(a,b);
 	 
@@ -160,20 +163,21 @@ void About_Us(){
 	   if(x == 1 && y == 1){
 		  Hconsole::drawBoxDoubleLineWithBG(a-28,b+16,20,1,153); // box 1
 		  Hconsole::gotoxy(a-23,b+17); Hconsole::setcolor(151); cout << "OEUN DAVID";
-	      
+	      Hinsy::setcolor(7);
 	   }  
 	   
 	   if(x == 2 && y == 1){
 	      
 	      Hconsole::drawBoxDoubleLineWithBG(a,b+16,20,1,153); // box 2
 		  Hconsole::gotoxy(a+4,b+17); Hconsole::setcolor(151); cout << "YANN VANNETH";
-	   
+	   	  Hinsy::setcolor(7);
 	   }
 	   
 	   if( x == 3 && y == 1){
 	   	 
 	   	 Hconsole::drawBoxDoubleLineWithBG(a+28,b+16,20,1,153); // box 3
 	   	 Hconsole::gotoxy(a+31,b+17); Hconsole::setcolor(151); cout << "PRACH BOROEURN";
+	   	Hinsy::setcolor(7);
 	   } 
 	   
 	 press = getch();
@@ -299,21 +303,21 @@ void About_Us(){
 	     	
 	     	Hconsole::drawBoxDoubleLineWithBG(a-28,b+16,20,1,153);
 	     	Hconsole::gotoxy(a-24,b+17); Hconsole::setcolor(151); cout << "ANT WEBSITE"; 
-	     	
+	     	Hinsy::setcolor(7);
 		 }
 		 
 		 if(x == 2 && y == 1){
 		 	
 		 	Hconsole::drawBoxDoubleLineWithBG(a,b+16,20,1,153);
 		 	Hconsole::gotoxy(a+6,b+17); Hconsole::setcolor(151); cout << "FACEBOOK";
-		 	
+		 	Hinsy::setcolor(7);
 		 }
 		 
 		 if(x == 3 && y == 1){
 		 	
 		 	Hconsole::drawBoxDoubleLineWithBG(a+28,b+16,20,1,153);
 		 	Hconsole::gotoxy(a+34,b+17); Hconsole::setcolor(151); cout << "TELEGRAM";
-		 	
+		 	Hinsy::setcolor(7);
 		 }
 		
 		key = getch();
@@ -463,21 +467,21 @@ void About_Us(){
 	     	
 	     	Hconsole::drawBoxDoubleLineWithBG(a-28,b+16,20,1,153);
 	     	Hconsole::gotoxy(a-21,b+17); Hconsole::setcolor(151); cout << "GITHUB"; 
-	     	
+	     	Hinsy::setcolor(7);
 		 }
 		 
 		 if(x == 2 && y == 1){
 		 	
 		 	Hconsole::drawBoxDoubleLineWithBG(a,b+16,20,1,153);
 		 	Hconsole::gotoxy(a+6,b+17); Hconsole::setcolor(151); cout << "FACEBOOK";
-		 	
+		 	Hinsy::setcolor(7);
 		 }
 		 
 		 if(x == 3 && y == 1){
 		 	
 		 	Hconsole::drawBoxDoubleLineWithBG(a+28,b+16,20,1,153);
 		 	Hconsole::gotoxy(a+34,b+17); Hconsole::setcolor(151); cout << "TELEGRAM";
-		 	
+		 	Hinsy::setcolor(7);
 		 }
 		
 		key = getch();
@@ -626,21 +630,21 @@ void About_Us(){
 	     	
 	     	Hconsole::drawBoxDoubleLineWithBG(a-28,b+16,20,1,153);
 	     	Hconsole::gotoxy(a-21,b+17); Hconsole::setcolor(151); cout << "GITHUB"; 
-	     	
+	     	Hinsy::setcolor(7);
 		 }
 		 
 		 if(x == 2 && y == 1){
 		 	
 		 	Hconsole::drawBoxDoubleLineWithBG(a,b+16,20,1,153);
 		 	Hconsole::gotoxy(a+6,b+17); Hconsole::setcolor(151); cout << "FACEBOOK";
-		 	
+		 	Hinsy::setcolor(7);
 		 }
 		 
 		 if(x == 3 && y == 1){
 		 	
 		 	Hconsole::drawBoxDoubleLineWithBG(a+28,b+16,20,1,153);
 		 	Hconsole::gotoxy(a+34,b+17); Hconsole::setcolor(151); cout << "TELEGRAM";
-		 	
+		 	Hinsy::setcolor(7);
 		 }
 		
 		cat = getch();
@@ -858,6 +862,44 @@ void TextLogin(int a,int b){
 	Hconsole::setcolor(3); Hconsole::gotoxy(a,b+4);   cout<<R"( | |___| |__| | |__| |_| |_| |\  | )"; Hconsole::setcolor(7); cout<<R"(  / ____ \ |___| |___| |__| | |__| | |\  |  | |   )";
 	Hconsole::setcolor(3); Hconsole::gotoxy(a,b+5);   cout<<R"( |______\____/ \_____|_____|_| \_| )"; Hconsole::setcolor(7); cout<<R"( /_/    \_\_____\_____\____/ \____/|_| \_|  |_|   )";
 	                                                                                           
+}
+
+void first_about_us()
+{
+	foreColor(7);
+	Hinsy::setcursor(0,0);
+	Hconsole::drawBoxDoubleLineWithBG(22,8,100,1,196);
+	Hconsole::drawBoxDoubleLineWithBG(27,5,90,1,145);
+	Hconsole::drawBoxDoubleLineWithBG(32,2,80,1,213);
+
+	Hconsole::drawBoxDoubleLine(18,12,108,20,247);
+	Hconsole::drawBoxDoubleLine(16,13,112,18,247);
+	
+	DrawRectangle(48,35,45,1,5);
+	gotoxy(54,36); foreColor(199); cout <<"PRESS ANY KEYS TO VIEW OUR DETAIL";
+	
+	Hinsy::delay(200);
+	Hinsy::gotoxy(21,16); foreColor(15); cout << "We're the scholarship students at"; // 26
+	Hinsy::gotoxy(55,16); foreColor(150); cout << "[1]ANT Technology Training Center,"; // 60
+	Hinsy::gotoxy(90,16); foreColor(15); cout << "specialize in"; // 95
+	Hinsy::gotoxy(104,16); foreColor(199); cout << "Mobile Application."; // 110
+	
+	Hinsy::delay(200);
+	Hinsy::gotoxy(39,19); foreColor(199); cout << "Study For 11 Months From 19 February 2024 To 20 December 2024.";
+	
+	Hinsy::delay(200);
+	Hinsy::gotoxy(30,22); foreColor(15); cout << "Thanks to the generous support of the"; // 35
+	Hinsy::gotoxy(68,22); foreColor(150); cout << "[2]Ministry of Post and Telecommunication. "; // 73
+	
+	Hinsy::delay(200);
+	Hinsy::gotoxy(24,25); foreColor(15); cout << "This opportunity is allowing us to develop valuable skills in mobile app development and pursue"; // 28
+
+	Hinsy::delay(200);
+	Hinsy::gotoxy(51,28); foreColor(15); cout << "exciting careers in the tech industry."; // 55
+	
+	foreColor(7);
+	getch();
+	Hinsy::cls();
 }
 
 	
